@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import InputTask from './components/InputTask';
+import ItemTask from './components/ItemTask';
 
 function App() {
   return (
-   <h1>Hello World</h1>
+    <main>
+        <h1>To Do List</h1>
+        <InputTask/>
+        <ItemTask/>
+    </main>
   );
 }
 
